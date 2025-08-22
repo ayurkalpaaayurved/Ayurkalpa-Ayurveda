@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ayurkalpa Ayurveda</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  header {
+    background-color: #5dade2;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  header img {
+    max-height: 80px;
+    margin-bottom: 0.5rem;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  nav {
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color: #2471a3;
+  }
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  section h2 {
+    color: #21618c;
+    border-bottom: 2px solid #5dade2;
+    padding-bottom: 0.5rem;
+  }
+  .banner {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  .banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px #000;
+  }
+  .btn {
+    background-color: #2874a6;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: #1b4f72;
+  }
+  .services-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .services-list li {
+    margin-bottom: 1rem;
+  }
+  blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #5dade2;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+  }
+  form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  form button {
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #1b4f72;
+  }
+  footer {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/3d718799-1f8f-466b-b0a8-e304e67a3fc9.png" alt="Ayurkalpa Ayurveda Logo" />
+  <h1>Ayurkalpa Ayurveda</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#services">Services</a>
+  <a href="#blog">Blog</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="banner">
+  <h2>Ayurkalpa Ayurveda "rooting for your health"</h2>
+  <a href="#contact" class="btn">Book Appointment</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>At Ayurkalpa Ayurveda, we blend ancient Ayurvedic wisdom with modern understanding to promote your health and wellbeing. Our clinic is led by experienced Ayurvedic physicians dedicated to natural healing and personalized care.</p>
+  <p>Dr. Ankit Bansode, BAMS, MD (Ayurveda), brings years of clinical expertise in herbal medicine, Panchakarma, and lifestyle counseling to help you achieve optimal balance.</p>
+  <p>Our mission is to provide holistic treatments that nourish your body, mind, and spirit for lifelong wellness.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <ul class="services-list">
+    <li><strong>Online Consultation:</strong> Personalized health assessment and Ayurvedic guidance remotely.</li>
+    <li><strong>Prescription:</strong> Tailored Ayurvedic herbal medicine recommendations.</li>
+    <li><strong>Counselling:</strong> Support and advice for lifestyle and mental wellness.</li>
+    <li><strong>Health Precautions According to Prakruti:</strong> Customized advice based on your body constitution.</li>
+    <li><strong>Weight Gain and Fat Loss Guidance:</strong> Ayurvedic approaches to healthy body weight management.</li>
+  </ul>
+</section>
+
+<section id="blog">
+  <h2>Ayurvedic Health Tips</h2>
+  <p>Coming soon: Informative blog posts on Ayurveda, health, and wellness.</p>
+</section>
+
+<section id="testimonials">
+  <h2>Patient Testimonials</h2>
+  <p>Video testimonials from patients will be featured here soon.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone/WhatsApp: +91 70665 79867</p>
+  <p>Email: <a href="mailto:ankitbansode703@gmail.com">ankitbansode703@gmail.com</a></p>
+
+  <form>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" required />
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" required />
+
+    <label for="message">Message / Appointment Request</label>
+    <textarea id="message" rows="4" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Ayurkalpa Ayurveda. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
